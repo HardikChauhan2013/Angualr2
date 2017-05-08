@@ -1,12 +1,22 @@
-# Angualr2
+# Angualr2 Step One
 
-This is simple angular2 project setup.
+This project is an simple project.You can use it to quickly bootstrap your angular projects.
 
-Prerequires:
+# Prerequires:
  - Node 
  - npm
  - TypeScript
+
+
+# Getting Started
+ To get you started you can simply clone the Angular2 repository and install the dependencies:
  
- Download AngularStepOne project using git.
+ git clone https://github.com/HardikChauhan2013/Angualr2.git
+ 
+ cd AngularStepOne
  
  npm install
+
+# Run the Application
+
+npm start
