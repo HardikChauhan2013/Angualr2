@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+        <!--This is polifills file-->
+        <script src="node_modules/core-js/client/shim.min.js"></script>
+        <!--This is required by AN2 to track changes -->
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <!--This is required by AMD moulde -->
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        <!--This is required by project configuration -->
+        <script src="systemjs.config.js"></script>
+
+        <script>
+            System.import('app').catch(function(err){
+                console.log("Error in startup : " + err);
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Hello from Angualr Project.</h1>
+        <my-app></my-app>
+        <h2>Hello World from index.html</h2>
+        </div>
+    </body>
+</html>
