@@ -1,6 +1,6 @@
 # Angualr2 Step One
 
-This project is an simple project.You can use it to quickly bootstrap your angular projects.
+This project is a simple project.You can use it to quickly bootstrap your angular projects.
 
 # Prerequires:
  - Node 
